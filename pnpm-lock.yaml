@@ -17,6 +17,9 @@ dependencies:
   scss:
     specifier: ^0.2.4
     version: 0.2.4
+  smartypants:
+    specifier: ^0.2.2
+    version: 0.2.2
   typescript:
     specifier: ^5.5.2
     version: 5.5.2
@@ -5142,6 +5145,11 @@ packages:
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
     dev: true
+
+  /smartypants@0.2.2:
+    resolution: {integrity: sha512-TzobUYoEft/xBtb2voRPryAUIvYguG0V7Tt3de79I1WfXgCwelqVsGuZSnu3GFGRZhXR90AeEYIM+icuB/S06Q==}
+    hasBin: true
+    dev: false
 
   /source-map-js@1.2.0:
     resolution: {integrity: sha512-itJW8lvSA0TXEphiRoawsCksnlf8SyvmFzIhltqAHluXd88pkCd+cXJVHTDwdCr0IzwptSm035IHQktUu1QUMg==}

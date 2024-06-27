@@ -1,6 +1,13 @@
 # Eva's Astro Starter
 
-I create new Astro projects regularly and always install a common group of packages. This is a template with all those packages pre-installed.
+An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
+
+## Getting Started
+
+1. Click "Use this template" and create a new repository.
+2. In `astro.config.mjs`, update `site` from `https://mysite.com` to your site URL.
+3. In `src/layouts/BaseLayout.astro`, update `siteName` to your site name.
+4. Good to go! Build your site with the power of Prettier, ESLint, smartypants, autoprefixer, 
 
 ## What's included
 
@@ -11,6 +18,9 @@ I create new Astro projects regularly and always install a common group of packa
 - Add a blank directory for `components`
 - Add `layouts/BaseLayout.astro` with basic meta tags
 - Add `initial-scale=1` to `viewport` meta tag
+- Add basic Open Graph tags
+- Display the site name after the page title (`Page Title · Site Name`) on pages that aren't the main index
+- Install [smartypants](https://github.com/othree/smartypants.js) and use smart quotes for page titles and descriptions
 
 **Styles**
 - Add `scss` for nested style declarations until broader native support
