@@ -28,7 +28,7 @@ I create new Astro projects regularly and always install a common group of packa
 
 **VS Code**
 - Automatically format on save and on paste
-- Set Prettier as the default formatter
+- Set Astro as default formatter
 - Add workplace recommendations for [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode), [axe Accessibility Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter), and [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 **Package.json scripts**
