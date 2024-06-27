@@ -22,7 +22,7 @@ An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, autopref
 
 **Styles**
 - `scss` for nested style declarations until broader native support
-- PostCSS `autoprefixer` for browser prefixing and `cssnano` and CSS minification
+- PostCSS `autoprefixer` for browser prefixing and `cssnano` for CSS minification
 - Josh Comeau's [reset.css](https://www.joshwcomeau.com/css/custom-css-reset/)
 
 **Prettier**
