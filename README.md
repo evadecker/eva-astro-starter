@@ -51,6 +51,12 @@ An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, autopref
 - Add [Husky](https://typicode.github.io/husky/)
 - Run `astro check` on pre-commit
 
+**Dependabot**
+- Check for dependency updates weekly
+- Group all github action updates in a single pull request
+- Group all patch or minor package updates in a single pull request
+- All major package updates created as individual pull requests
+
 **Config**
 - Enable link prefetching
 - Disable the dev toolbar
