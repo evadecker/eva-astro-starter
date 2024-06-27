@@ -1,13 +1,13 @@
 # Eva's Astro Starter
 
-An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
+An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, autoprefixer, cssnano, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
 
 ## Getting Started
 
 1. Click "Use this template" and create a new repository.
 2. In `astro.config.mjs`, update `site` from `https://mysite.com` to your site URL.
 3. In `src/layouts/BaseLayout.astro`, update `siteName` to your site name.
-4. Good to go! Build your site with the power of Prettier, ESLint, smartypants, autoprefixer, 
+4. Good to go!
 
 ## What's included
 
