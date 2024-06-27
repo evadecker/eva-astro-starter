@@ -14,8 +14,7 @@ An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, autopref
 **Basics**
 - A blank [Astro](https://astro.build/) project with TypeScript enabled
 - `pnpm` package management plus `only-allow pnpm`
-- Import aliases of `src` using `~` to enable using `import { Component } from '~/components'` anywhere
-- A blank directory for `components`
+- Import aliases of `src` using `~` to enable using `import { Component } from '~/components'` 
 - Basic meta tags and open graph tags in `layouts/BaseLayout.astro`
 - `initial-scale=1` on `viewport` to prevent default mobile zoom-out
 - Site name displays after the page title (`Page Title · Site Name`) on pages other than the main index
