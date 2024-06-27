@@ -1,0 +1,3 @@
+pnpm astro check
+pnpm lint
+pnpm stylelint

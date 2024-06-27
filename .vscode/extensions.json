@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "astro-build.astro-vscode",
+    "deque-systems.vscode-axe-linter",
+    "dbaeumer.vscode-eslint"
+  ],
+  "unwantedRecommendations": []
+}
