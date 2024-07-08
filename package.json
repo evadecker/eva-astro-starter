@@ -18,15 +18,15 @@
   "dependencies": {
     "@astrojs/check": "^0.7.0",
     "@astrojs/sitemap": "^3.1.6",
-    "astro": "^4.11.3",
+    "astro": "^4.11.5",
     "scss": "^0.2.4",
     "smartypants": "^0.2.2",
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.3"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^7.14.1",
+    "@typescript-eslint/parser": "^7.15.0",
     "autoprefixer": "^10.4.19",
-    "cssnano": "^7.0.3",
+    "cssnano": "^7.0.4",
     "eslint": "^9.6.0",
     "eslint-plugin-astro": "^1.2.2",
     "eslint-plugin-jsx-a11y": "^6.9.0",
