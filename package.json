@@ -16,7 +16,7 @@
     "stylelint:fix": "stylelint '**/*.{astro,css,scss}' --fix"
   },
   "dependencies": {
-    "@astrojs/check": "^0.7.0",
+    "@astrojs/check": "^0.8.1",
     "@astrojs/sitemap": "^3.1.6",
     "astro": "^4.11.5",
     "scss": "^0.2.4",
@@ -24,19 +24,19 @@
     "typescript": "^5.5.3"
   },
   "devDependencies": {
-    "@typescript-eslint/parser": "^7.15.0",
+    "@typescript-eslint/parser": "^7.16.0",
     "autoprefixer": "^10.4.19",
     "cssnano": "^7.0.4",
-    "eslint": "^9.6.0",
-    "eslint-plugin-astro": "^1.2.2",
+    "eslint": "^9.7.0",
+    "eslint-plugin-astro": "^1.2.3",
     "eslint-plugin-jsx-a11y": "^6.9.0",
     "husky": "^9.0.11",
     "postcss-html": "^1.7.0",
-    "prettier": "^3.3.2",
+    "prettier": "^3.3.3",
     "prettier-plugin-astro": "^0.14.0",
     "prettier-plugin-astro-organize-imports": "^0.4.9",
     "sharp": "^0.33.4",
-    "stylelint": "^16.6.1",
+    "stylelint": "^16.7.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^36.0.1",
     "stylelint-config-standard-scss": "^13.1.0"
