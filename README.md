@@ -1,6 +1,6 @@
 # Eva's Astro Starter
 
-An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, autoprefixer, cssnano, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
+An Astro starter project set up with pnpm, Biome, Stylelint, autoprefixer, cssnano, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
 
 ## Getting Started
 
@@ -25,28 +25,23 @@ An Astro starter project set up with pnpm, Prettier, ESLint, Stylelint, autopref
 - PostCSS `autoprefixer` for browser prefixing and `cssnano` for CSS minification
 - Josh Comeau's [reset.css](https://www.joshwcomeau.com/css/custom-css-reset/)
 
-**Prettier**
-- Auto code formatting with [Prettier](https://prettier.io/) and [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro)
-- Auto import sorting with [prettier-plugin-astro-organize-imports](https://github.com/neoki07/prettier-plugin-astro-organize-imports)
-
-**Linting**
-- `.astro`, `.js`, `.jsx`, `.json`, `.ts`, and `.tsx` linting with [ESLint](https://eslint.org/) and [eslint-plugin-astro](https://github.com/ota-meshi/eslint-plugin-astro)
-- Accessibility checks with [eslint-plugin-jsx-a11y](https://github.com/jsx-eslint/eslint-plugin-jsx-a11y)
+**Linting and Formatting**
+- Linting and formatting with [Biome](https://biomejs.dev/)
 - Style linting with [Stylelint](https://stylelint.io/) and [stylelint-config-astro](https://github.com/mattpfeffer/stylelint-config-astro)
 
 **VS Code**
 - Format on save and on paste
 - Default formatter set to Astro
-- Workplace recommendations for [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode), [axe Accessibility Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter), and [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- Workplace recommendations for [Astro](https://marketplace.visualstudio.com/items?itemName=astro-build.astro-vscode), [axe Accessibility Linter](https://marketplace.visualstudio.com/items?itemName=deque-systems.vscode-axe-linter), and [Biome](https://marketplace.visualstudio.com/items?itemName=biomejs.biome)
 
 **Package.json scripts**
-- `lint` — Run ESLint
-- `lint:fix` — Run ESLint and fix errors
+- `check` — Run Astro check + Biome lint and format
+- `check:fix` — Run Astro check + Biome lint and format + fix errors
 - `stylelint` — Run Stylelint
 - `stylelint:fix` — Run Stylelint and fix errors
 
 **Husky**
-- `astro check` on pre-commit
+- `pnpm check` on pre-commit
 
 **Dependabot**
 - Weekly dependency update checks
