@@ -17,14 +17,14 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/sitemap": "^3.2.0",
-    "astro": "^4.16.2",
+    "@astrojs/sitemap": "^3.2.1",
+    "astro": "^4.16.6",
     "scss": "^0.2.4",
     "smartypants": "^0.2.2",
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.3",
+    "@biomejs/biome": "^1.9.4",
     "autoprefixer": "^10.4.20",
     "cssnano": "^7.0.6",
     "husky": "^9.1.6",
