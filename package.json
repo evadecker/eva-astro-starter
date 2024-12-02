@@ -18,7 +18,7 @@
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.2.1",
-    "astro": "^4.16.14",
+    "astro": "^4.16.16",
     "scss": "^0.2.4",
     "smartypants": "^0.2.2",
     "typescript": "^5.7.2"
@@ -29,7 +29,7 @@
     "cssnano": "^7.0.6",
     "husky": "^9.1.7",
     "sharp": "^0.33.5",
-    "stylelint": "^16.10.0",
+    "stylelint": "^16.11.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^36.0.1",
     "stylelint-config-standard-scss": "^13.1.0"
