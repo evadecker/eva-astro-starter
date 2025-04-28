@@ -17,8 +17,8 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/sitemap": "^3.3.0",
-    "astro": "^5.7.4",
+    "@astrojs/sitemap": "^3.3.1",
+    "astro": "^5.7.5",
     "scss": "^0.2.4",
     "smartypants": "^0.2.2",
     "typescript": "^5.8.3"
@@ -29,7 +29,7 @@
     "cssnano": "^7.0.6",
     "husky": "^9.1.7",
     "sharp": "^0.34.1",
-    "stylelint": "^16.18.0",
+    "stylelint": "^16.19.1",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^38.0.0",
     "stylelint-config-standard-scss": "^14.0.0"
