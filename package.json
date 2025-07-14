@@ -24,11 +24,11 @@
     "typescript": "^5.8.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.0.6",
+    "@biomejs/biome": "^2.1.1",
     "autoprefixer": "^10.4.21",
     "cssnano": "^7.0.7",
     "husky": "^9.1.7",
-    "sharp": "^0.34.2",
+    "sharp": "^0.34.3",
     "stylelint": "^16.21.1",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^38.0.0",
