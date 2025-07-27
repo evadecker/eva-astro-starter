@@ -12,26 +12,22 @@
     "astro": "astro",
     "check": "astro check && biome check",
     "check:fix": "astro check && biome check --write",
-    "stylelint": "stylelint '**/*.{astro,css,scss}'",
-    "stylelint:fix": "stylelint '**/*.{astro,css,scss}' --fix"
+    "stylelint": "stylelint '**/*.{astro,css}'",
+    "stylelint:fix": "stylelint '**/*.{astro,css}' --fix"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
     "@astrojs/sitemap": "^3.4.1",
-    "astro": "^5.12.0",
-    "scss": "^0.2.4",
+    "astro": "^5.12.3",
     "smartypants": "^0.2.2",
     "typescript": "^5.8.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.1.2",
-    "autoprefixer": "^10.4.21",
-    "cssnano": "^7.1.0",
     "husky": "^9.1.7",
     "sharp": "^0.34.3",
     "stylelint": "^16.22.0",
     "stylelint-config-astro": "^1.0.4",
-    "stylelint-config-standard": "^38.0.0",
-    "stylelint-config-standard-scss": "^15.0.1"
+    "stylelint-config-standard": "^38.0.0"
   }
 }

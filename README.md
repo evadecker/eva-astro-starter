@@ -21,7 +21,6 @@ An Astro starter project set up with pnpm, Biome, Stylelint, autoprefixer, cssna
 - [smartypants](https://github.com/othree/smartypants.js) smart quotes for page titles and descriptions
 
 **Styles**
-- `scss` for nested style declarations until broader native support
 - PostCSS `autoprefixer` for browser prefixing and `cssnano` for CSS minification
 - Josh Comeau's [reset.css](https://www.joshwcomeau.com/css/custom-css-reset/)
 
