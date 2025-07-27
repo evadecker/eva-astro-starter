@@ -1,6 +1,6 @@
 # Eva's Astro Starter
 
-An Astro starter project set up with pnpm, Biome, Stylelint, autoprefixer, cssnano, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
+An Astro starter project set up with pnpm, Biome, Stylelint, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
 
 ## Getting Started
 
