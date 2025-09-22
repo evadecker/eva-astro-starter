@@ -17,15 +17,15 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/sitemap": "^3.5.1",
-    "astro": "^5.13.7",
+    "@astrojs/sitemap": "^3.6.0",
+    "astro": "^5.13.9",
     "smartypants": "^0.2.2",
     "typescript": "^5.9.2"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.2.4",
     "husky": "^9.1.7",
-    "sharp": "^0.34.3",
+    "sharp": "^0.34.4",
     "stylelint": "^16.24.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^39.0.0"
