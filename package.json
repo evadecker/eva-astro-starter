@@ -20,13 +20,13 @@
     "@astrojs/sitemap": "^3.6.0",
     "astro": "^5.14.1",
     "smartypants": "^0.2.2",
-    "typescript": "^5.9.2"
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.2.4",
+    "@biomejs/biome": "^2.2.5",
     "husky": "^9.1.7",
     "sharp": "^0.34.4",
-    "stylelint": "^16.24.0",
+    "stylelint": "^16.25.0",
     "stylelint-config-astro": "^1.0.4",
     "stylelint-config-standard": "^39.0.0"
   }
