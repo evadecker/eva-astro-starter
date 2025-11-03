@@ -18,12 +18,12 @@
   "dependencies": {
     "@astrojs/check": "^0.9.5",
     "@astrojs/sitemap": "^3.6.0",
-    "astro": "^5.15.1",
+    "astro": "^5.15.3",
     "smartypants": "^0.2.2",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.3.1",
+    "@biomejs/biome": "^2.3.3",
     "husky": "^9.1.7",
     "sharp": "^0.34.4",
     "stylelint": "^16.25.0",
