@@ -1,4 +1,4 @@
-# Eva's Astro Starter
+# Ky's Astro Starter
 
 An Astro starter project set up with pnpm, Biome, Stylelint, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
 
