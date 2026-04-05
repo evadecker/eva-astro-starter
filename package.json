@@ -1,5 +1,6 @@
 {
-  "name": "eva-astro-starter",
+  "name": "ky-astro-starter",
+  "author": "Ky Decker <hi@ky.fyi> (https://ky.fyi/)",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -11,9 +12,12 @@
     "preview": "astro preview",
     "astro": "astro",
     "check": "astro check && biome check",
-    "check:fix": "astro check && biome check --write",
-    "stylelint": "stylelint '**/*.{astro,css}'",
-    "stylelint:fix": "stylelint '**/*.{astro,css}' --fix"
+    "check:fix": "astro check && biome check --write"
+  },
+  "lint-staged": {
+    "*": [
+      "biome check --write"
+    ]
   },
   "dependencies": {
     "@astrojs/check": "^0.9.8",
@@ -25,9 +29,7 @@
   "devDependencies": {
     "@biomejs/biome": "^2.4.9",
     "husky": "^9.1.7",
-    "sharp": "^0.34.5",
-    "stylelint": "^16.26.1",
-    "stylelint-config-astro": "^2.0.0",
-    "stylelint-config-standard": "^39.0.1"
+    "lint-staged": "^16.4.0",
+    "sharp": "^0.34.5"
   }
 }
