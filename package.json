@@ -1,5 +1,6 @@
 {
-  "name": "eva-astro-starter",
+  "name": "ky-astro-starter",
+  "author": "Ky Decker <hi@ky.fyi> (https://ky.fyi/)",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
