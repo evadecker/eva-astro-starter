@@ -5,7 +5,6 @@
   "version": "0.0.1",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
-    "prepare": "husky",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build",
@@ -14,8 +13,11 @@
     "check": "astro check && biome check",
     "check:fix": "astro check && biome check --write"
   },
-  "lint-staged": {
-    "*": [
+  "simple-git-hooks": {
+    "pre-commit": "./node_modules/.bin/nano-staged"
+  },
+  "nano-staged": {
+    "*.{js,mjs,cjs,jsx,ts,mts,cts,tsx,json,jsonc,css,astro}": [
       "biome check --write"
     ]
   },
@@ -23,13 +25,13 @@
     "@astrojs/check": "^0.9.8",
     "@astrojs/sitemap": "^3.7.2",
     "astro": "^6.1.5",
+    "nano-staged": "^1.0.2",
+    "simple-git-hooks": "^2.13.1",
     "smartypants": "^0.2.2",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.4.11",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.4.0",
     "sharp": "^0.34.5"
   }
 }

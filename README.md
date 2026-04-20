@@ -1,6 +1,6 @@
 # Ky's Astro Starter
 
-An Astro starter project set up with pnpm, Biome, Husky, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
+An Astro starter project set up with pnpm, Biome, `simple-git-hooks`, and Astro Sitemap, plus sensible VS Code defaults and recommended workspace extensions.
 
 ## Getting Started
 
@@ -35,7 +35,7 @@ An Astro starter project set up with pnpm, Biome, Husky, and Astro Sitemap, plus
 - `check` — Run Astro check + Biome lint and format
 - `check:fix` — Run Astro check + Biome lint and format + fix errors
 
-**Pre-commit checks with Husky and lint-staged**
+**Pre-commit checks with `simple-git-hooks` and `nano-staged`**
 - `biome check --write` on pre-commit
 
 **Dependabot**
