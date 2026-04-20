@@ -24,14 +24,14 @@
   "dependencies": {
     "@astrojs/check": "^0.9.8",
     "@astrojs/sitemap": "^3.7.2",
-    "astro": "^6.1.5",
+    "astro": "^6.1.8",
     "nano-staged": "^1.0.2",
     "simple-git-hooks": "^2.13.1",
     "smartypants": "^0.2.2",
     "typescript": "^5.9.3"
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.4.11",
+    "@biomejs/biome": "^2.4.12",
     "sharp": "^0.34.5"
   }
 }
